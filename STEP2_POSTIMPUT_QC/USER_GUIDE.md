@@ -259,4 +259,4 @@ This is expected behavior. Step 5 only creates reports; it intentionally sets th
 
 ## Recommended script
 
-Use `STEP2_POSTIMPUT_DATAPROCESSING_JOB.sh` for SLURM execution. Do not substitute `STEP2_POSTIMPUT_DATAPROCESSING (1).sh` without reviewing its interactive selection logic, its `7z` dependency, and the ordering of duplicate-rsID commands.
+Use `STEP2_POSTIMPUT_DATAPROCESSING_JOB.sh` for SLURM execution. Do not substitute `STEP2_POSTIMPUT_DATAPROCESSING.sh` without reviewing its interactive selection logic, its `7z` dependency, and the ordering of duplicate-rsID commands.
